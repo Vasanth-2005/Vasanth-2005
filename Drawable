@@ -1,0 +1,14 @@
+interface Drawable{
+void draw();
+}
+class Rectangle impplements Drawable{
+public void draw(){
+System.out.println("drawable.circle");
+}
+}
+class Interface 1{
+public ststic void main(String args[]){
+Drawable d=new Circle();
+d.draw();
+}
+}
